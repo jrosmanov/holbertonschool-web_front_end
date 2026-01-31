@@ -233,6 +233,7 @@ a:active {
   font-family: var(--font-family-title);
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
 }
 
 .section-body {

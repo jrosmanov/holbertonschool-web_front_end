@@ -1,4 +1,3 @@
-/* ===== Base Styles from 16-style.css ===== */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -166,7 +165,6 @@ summary {
   color: #d73953;
 }
 
-/* ===== Root Custom Properties ===== */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -190,7 +188,6 @@ summary {
   --line-height-base: 1.5;
   --line-height-big: 1.8;
 
-  /* Section & Footer */
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
@@ -198,7 +195,6 @@ summary {
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
 
-  /* Navbar */
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
@@ -208,7 +204,6 @@ summary {
   --nav-item-link-hover: var(--color-primary);
 }
 
-/* ===== Links ===== */
 a:link {
   color: var(--color-black);
   text-decoration: none;
@@ -223,7 +218,6 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-/* ===== Sections ===== */
 .section {
   padding: var(--section-padding);
 }
@@ -261,7 +255,6 @@ a:active {
   padding: var(--footer-padding);
 }
 
-/* ===== Container ===== */
 .container {
   width: 960px;
   margin-left: auto;
@@ -273,7 +266,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-/* ===== Navbar ===== */
 .navbar-menu {
   float: right;
 }

@@ -197,18 +197,49 @@ summary {
   --nav-item-link-hover: var(--color-primary);
 }
 
-a:link {
-  color: var(--color-black);
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base)
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
+a {
+  color: var(--text-color);
   text-decoration: none;
 }
+
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 a:visited {
   font-style: italic;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 a:active {
   background-color: var(--color-light-grey);
+}
+
+.visually-hidden {
+  display: none;
 }
 
 .section {
@@ -252,9 +283,14 @@ a:active {
   margin: var(--section-tagline-margin);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
 
 .navbar-menu {
@@ -262,9 +298,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
+  font-style: normal;
   text-align: center;
 }
 
@@ -307,12 +344,9 @@ ul.row {
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
-  color: var(--color-black);
+  color: var(--text-color);
 }
 
 .footer ul {
   text-align: right;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }

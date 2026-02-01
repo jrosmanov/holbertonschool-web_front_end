@@ -359,6 +359,10 @@ ul.row {
   clear: both;
 }
 
+.footer-address {
+  color: var(--text-color);
+}
+
 .social-link {
   display: block;
 }

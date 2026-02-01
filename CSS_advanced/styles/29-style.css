@@ -378,8 +378,25 @@ a:active {
   padding: 0.5rem 1rem;
 }
 
+.nav .nav-link::before {
+  content: '';
+  display: block;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
+}
+
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
 }
 
 ul.row {
